@@ -1,0 +1,255 @@
+body{
+    background: #010811;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+div, p, input, header, a, form{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p a{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+section{
+    padding-top: 150px;
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+/**********Шапка**********/
+.header{
+    padding: 26px 0 0 0;
+    background-image: url(../img/BG.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.nav{
+    font-weight: 500;
+	display: flex;
+}
+
+.nav li:not(:last-child){
+    margin-right: 50px;
+}
+
+.nav a:hover{
+    font-weight: 700;
+}
+
+.navigation{
+    align-items: center;
+    justify-content: space-between;
+	display: flex;
+    margin-bottom: 140px;
+}
+
+.offer{
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.text-offer{
+    margin: 0 auto;
+    width: 732px; 
+}
+
+.text-offer, h1{
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: 0.025em;
+}
+
+.paragraph{
+    text-align: center;
+    width: 770px;
+    margin: 40px 0 40px 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 116.68%;
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #000;
+    background: #fff;
+    padding: 16px 65px;
+}
+
+.btn:hover{
+    background: #E5E5E5;
+    transition: 0.2s;
+}
+/********** Конец секции **********/
+
+/********** Виды мошенничества **********/
+.skam-offer{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skam{
+    align-items: center;
+    margin: 70px 0 70px 0;
+    display: flex;
+}
+
+.skam-text p{
+    margin-right: 51px;
+    width: 622px;
+    font-size: 14px;
+    line-height: 112.68%;
+}
+
+.fish{
+    justify-content: flex-end;
+}
+
+.fish-text{
+    margin-left: 20px;
+}
+/********** Конец секции **********/
+
+/********** Новости **********/
+.news-skam{
+    margin-top: 70px;
+    display: flex;
+}
+
+.news-item{
+    height: 100%;
+    margin-right: 43px;
+    margin-top: 70px2;
+    width: 297px;
+    background: #fff;
+    border-radius: 20px;
+    color: #000;
+}
+
+.news-text{
+    margin: 12px 11px 0 17px;
+}
+
+.news-item h4{
+    margin-bottom: 10px;
+}
+
+.news-item p{
+    line-height: 149.68%;
+}
+
+.news-item span {
+    margin: 10px 3% 9px 8px;
+}
+
+.news-item span a{
+    color: #000;
+}
+
+.news-item span a:hover{
+    color: #00132C;
+    font-weight: 700;
+}
+
+.information{
+    margin-top: 10px;
+    padding: 9px 11px 9px 17px;
+    border-radius: 0px 0px 20px 20px;
+    background: #E3E3E3;
+}
+/********** Конец секции **********/
+
+/********** Генератор паролей **********/
+.inputBox{
+    margin: 30px auto;
+    width: 500px;
+}
+
+.inputBox input{
+    text-align: center;
+	position: relative;
+	width: 100%;
+	height: 60px;
+	border: none;
+	margin: 15px 0 20px;
+	background: #fff;
+	outline: none;
+	padding: 0 20px;
+	font-size: 24px;
+	letter-spacing: 4px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	color: #333;
+}
+
+.inputBox input::placeholder{letter-spacing: 0px;}
+
+.inputBox #btn{
+    text-align: center;
+    width: 100%;
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+	background: #333;
+	font-size: 24px;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+
+.inputBox #btn:active{
+	background: #9c27b0;
+}
+/********** Конец секции **********/
+
+.footer{
+    padding: 30px 0 30px 0;
+    margin-top: 150px;
+    background: #000;
+}
+
+.arrow{
+    padding-left: 315px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
